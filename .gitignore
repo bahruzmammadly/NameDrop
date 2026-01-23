@@ -1,9 +1,29 @@
+# deps
 node_modules
-.pnpm-store
+**/node_modules
+
+# env
 .env
 .env.*
+
+# build
 dist
+build
+
+# expo
 .expo
-.DS_Store
+.expo-shared
+
+# turbo cache
+.turbo
+**/.turbo
+
+# pnpm store
+.pnpm-store
+
+# logs
 npm-debug.log*
 pnpm-debug.log*
+
+# misc
+.DS_Store
