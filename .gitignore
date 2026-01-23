@@ -1,45 +1,9 @@
-# --------------------
-# Node / React Native
-# --------------------
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Expo
-.expo/
-.expo-shared/
-
-# --------------------
-# Environment files
-# --------------------
+node_modules
+.pnpm-store
 .env
-.env.local
-.env.development
-.env.production
-
-# --------------------
-# Android
-# --------------------
-android/.gradle/
-android/build/
-android/app/build/
-android/local.properties
-android/.idea/
-android/*.iml
-
---------------------
-# IDE / OS
-# --------------------
-.vscode/
-.idea/
-*.swp
-*.log
+.env.*
+dist
+.expo
 .DS_Store
-
-# --------------------
-# Misc
-# --------------------
-coverage/
-.tmp/
-.cache/
+npm-debug.log*
+pnpm-debug.log*
