@@ -1,0 +1,15 @@
+{
+  "name": "namedrop",
+  "private": true,
+  "packageManager": "pnpm@10.28.0",
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "dev:api": "turbo run dev --filter=@namedrop/api",
+    "dev:mobile": "turbo run start --filter=@namedrop/mobile",
+    "lint": "turbo run lint",
+    "build": "turbo run build"
+  },
+  "devDependencies": {
+    "turbo": "^2.7.5"
+  }
+}
