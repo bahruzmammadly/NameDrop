@@ -1,7 +1,6 @@
 # NameDrop
 
 NameDrop is an open-source Android app for fast contact sharing using **QR codes** and **NFC**.  
-Simple. Offline. No accounts.
 
 ## Features
 - QR contact sharing
@@ -20,12 +19,6 @@ Simple. Offline. No accounts.
 - Node.js
 - Express.js
 - MongoDB
-
-## Use Cases
-- Meetups
-- Conferences
-- Freelancers
-- Teams
 
 ## Contributing
 Fork → Branch → Commit → Pull Request
